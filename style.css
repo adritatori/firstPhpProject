@@ -1,0 +1,44 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 80%;
+  background-color: powderblue;
+  padding: 34px;
+  margin:auto;
+  text-align: center;
+}
+input, textarea{
+  font-size: 25px;
+  width: 80%;
+  margin: 11px 0px;
+  padding: 7px;
+  border: 1px solid skyblue;
+  border-radius: 4px;
+  outline: none;
+  display: block;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn{
+  color: white;
+  background: blue;
+  padding: 8px 12px;
+  font-size:20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 0px;
+} 
+
+.submitMsg{
+  color: brown;
+}
